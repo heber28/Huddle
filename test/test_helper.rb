@@ -13,7 +13,11 @@ class ActiveSupport::TestCase
   
   def login_as_one
     sign_in(users(:one))
-  end  
+  end
+  
+  def set_current_project(symbol)
+    @request.session[:project_id] = projects(symbol).id
+  end    
   
 end
       
