@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class ProjectsControllerTest < ActionController::TestCase
-  setup do
+  setup :login_as_one
+  setup do    
     @project = projects(:one)
   end
 

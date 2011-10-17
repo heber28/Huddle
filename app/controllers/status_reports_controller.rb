@@ -41,6 +41,7 @@ class StatusReportsController < ApplicationController
   # POST /status_reports.json
   def create
     @status_report = StatusReport.new(params[:status_report])
+    
 
     respond_to do |format|
       if @status_report.save
