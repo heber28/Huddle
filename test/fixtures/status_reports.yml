@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  project: one 
+  user: one
+  yesterday: MyText
+  today: MyText
+  status_date: 2011-10-17
+
+two:
+  project: two
+  user: two
+  yesterday: MyText
+  today: MyText
+  status_date: 2011-10-17
